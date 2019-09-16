@@ -1,6 +1,5 @@
 function p = genpath2(d, pattern)
-%GENPATH2 returns a character vector of paths that don't start with a 
-%specified pattern
+%GENPATH2 calls genpath and removes folders matching a specified pattern
 %
 % INPUTS:
 %   d       ~ char, the name of of the base folder
@@ -10,7 +9,7 @@ function p = genpath2(d, pattern)
 %   p       ~ char, the cleaned path
 %
 % Acknowledgement: This function was based on functionality
-% introduced by Jesse Hopkings with genpath_exclude on File Exchange
+% introduced by Jesse Hopkins with genpath_exclude on File Exchange
 %
 % Santiago I. Sordo-Palacios, 2019
 
