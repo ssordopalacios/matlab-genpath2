@@ -8,8 +8,10 @@ function p = genpath2(d, pattern)
 % OUTPUTS:
 %   p       ~ char, the cleaned path
 %
-% Acknowledgement: This function was based on functionality
-% introduced by Jesse Hopkins with genpath_exclude on File Exchange
+% USAGE:
+#   genpath2(folderName) returns an array identical to genpath(folderName)
+#   genpath2(folderName, '.git') returns a array without folders starting with .git
+#   genpath2(folderName, {'.git', '.svn'}) returns a vector without folders starting with .git or .svn
 %
 % Santiago I. Sordo-Palacios, 2019
 
