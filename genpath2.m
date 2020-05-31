@@ -9,9 +9,9 @@ function p = genpath2(d, pattern)
 %   p       ~ char, the cleaned path
 %
 % USAGE:
-#   genpath2(folderName) returns an array identical to genpath(folderName)
-#   genpath2(folderName, '.git') returns a array without folders starting with .git
-#   genpath2(folderName, {'.git', '.svn'}) returns a vector without folders starting with .git or .svn
+%   genpath2(folderName) returns an array identical to genpath(folderName)
+%   genpath2(folderName, '.git') returns a array without folders starting with .git
+%   genpath2(folderName, {'.git', '.svn'}) returns a vector without folders starting with .git or .svn
 %
 % Santiago I. Sordo-Palacios, 2019
 
